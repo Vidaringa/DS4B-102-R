@@ -1,0 +1,89 @@
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Roboto:300&display=swap');
+
+@font-face {
+    
+}
+
+.navbar-brand {
+    font-family: "Montserrat", sans-serif;
+    color: #77bb00 !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Montserrat", sans-serif;
+    color: #77bb00;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#bike_type {
+    color: #ffffff;
+}
+
+/* NAVBAR */
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #000;
+}
+
+.navbar-logo {
+    height: 30px;
+}
+
+
+/* SIDEBAR */
+.section.sidebar {
+    background-color: #000;
+}
+
+/* BUTTONS */
+.btn-default {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #77bb00
+}
+
+.btn-default:focus,.btn-default.focus {
+    color: #ffffff;
+    background-color: #77bb00;
+    border-color: #77bb00
+}
+
+.btn-default:hover {
+    color: #ffffff;
+    background-color: #77bb00;
+    border-color: #77bb00
+}
+
+.btn-default:active,.btn-default.active,.open>.dropdown-toggle.btn-default {
+    color: #ffffff;
+    background-color: #77bb00;
+    border-color: #77bb00
+}
+
+.btn-default:active:hover,.btn-default.active:hover,.open>.dropdown-toggle.btn-default:hover,.btn-default:active:focus,.btn-default.active:focus,.open>.dropdown-toggle.btn-default:focus,.btn-default:active.focus,.btn-default.active.focus,.open>.dropdown-toggle.btn-default.focus {
+    color: #ffffff;
+    background-color: #77bb00;
+    border-color: #77bb00
+}
+
+.btn-default:active,.btn-default.active,.open>.dropdown-toggle.btn-default {
+    background-image: none
+}
+
+.btn-default.disabled:hover,.btn-default[disabled]:hover,fieldset[disabled] .btn-default:hover,.btn-default.disabled:focus,.btn-default[disabled]:focus,fieldset[disabled] .btn-default:focus,.btn-default.disabled.focus,.btn-default[disabled].focus,fieldset[disabled] .btn-default.focus {
+    background-color: #222222;
+    border-color: #222222
+}
+
+.btn-default .badge {
+    color: #222222;
+    background-color: #ffffff
+}
